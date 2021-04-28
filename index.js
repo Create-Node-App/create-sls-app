@@ -21,28 +21,7 @@ program
   .option('--info', 'print environment debug info')
   .option('--use-npm', 'use npm mandatorily')
   .option('--typescript', 'add TypeScript support')
-  .option(
-    '--i18n',
-    'add i18n setup using react-i18n and async backend with locale and timezone support'
-  )
-  .option('--redux', 'add redux support and setup using redux thunk middleware by default')
-  .option(
-    '--saga',
-    'add redux support and setup using redux saga middleware. --redux flag is required'
-  )
-  .option('--recoil', 'add recoil.js support and setup the state management library for React')
-  .option('--ant-design', 'add ant-design setup with ant-design icons package')
-  .option('--bootstrap', 'add bootstrap and bootstrap-react setup with theme config')
-  .option('--material-ui', 'add material ui setup with SVG icons')
-  .option('--semantic-ui', 'add semantic ui and semantic ui react setup with theme config')
-  .option('--docker', 'generate dockerfiles')
-  .option(
-    '--android-tools',
-    'generate dockerfiles with android tools to perform android emulation, testing and apk generation.'
-  )
-  .option('--ionic', 'generates cross-platform setup using ionic react and capacitor')
   .option('--extend <repos...>', 'git repositories to extend your boilerplate')
-  .option('-a, --alias <alias>', 'webpack alias', 'app')
   .option('--nodeps', 'generate package.json file without installing dependencies')
   .option('--inplace', 'apply setup to an existing project')
   .allowUnknownOption()

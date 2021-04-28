@@ -1,29 +1,35 @@
 {
-  "name": "create-react-webpack-project",
-  "version": "1.10.5",
-  "description": "Command line tool to create single page applications using React and Webpack with a lot of different addons.",
+  "name": "create-sls-app",
+  "version": "1.0.0",
+  "description": "Command line tool to create single page applications using Serverless with a lot of different addons",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Create-Node-App/create-react-webpack-app.git"
+    "url": "git+https://github.com/Create-Node-App/create-sls-app.git"
   },
   "bugs": {
-    "url": "https://github.com/Create-Node-App/create-react-webpack-app/issues"
+    "url": "https://github.com/Create-Node-App/create-sls-app/issues"
   },
-  "homepage": "https://github.com/Create-Node-App/create-react-webpack-app#readme",
+  "homepage": "https://github.com/Create-Node-App/create-sls-app#readme",
   "keywords": [
-    "react",
-    "webpack",
-    "babel",
+    "serverless",
     "code generator"
   ],
   "bin": {
-    "create-react-webpack-project": "./index.js",
-    "crwp": "./index.js"
+    "create-sls-app": "./index.js",
+    "csa": "./index.js"
   },
   "authors": [
     {
       "name": "Ulises Jeremias Cornejo Fandos",
       "email": "ulisescf.24@gmail.com"
+    },
+    {
+      "name": "Dario Scrivano",
+      "email": "darioyosoy@gmail.com"
+    },
+    {
+      "name": "Santiago Navarro",
+      "email": "santi.navarro96@gmail.com"
     }
   ],
   "license": "MIT",
