@@ -1,6 +1,6 @@
 {
   "name": "create-sls-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Command line tool to create single page applications using Serverless with a lot of different addons",
   "repository": {
     "type": "git",
@@ -35,7 +35,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
-    "cna-cli": "^1.1.4",
+    "cna-cli": "^1.2.0",
     "commander": "^7.0.0",
     "envinfo": "^7.7.4"
   },
